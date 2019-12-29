@@ -1,0 +1,27 @@
+html, body {
+    background: #333;
+    margin: 0px;
+    overflow: hidden;
+}
+
+#container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#viewport {
+    background: red;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#images-collection {
+    display: none;
+}
+
+@font-face{
+    font-family: "Pixel";
+    src: url("PressStart2P.ttf")
+}
